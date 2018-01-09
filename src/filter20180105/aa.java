@@ -29,6 +29,9 @@ public class aa extends HttpServlet{
 		super.doPost(req, resp);
 	}
 	
+	public static void main(String[] args) {
+		System.out.println("--------------");
+	}
 	
 	
 
