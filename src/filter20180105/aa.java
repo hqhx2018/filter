@@ -28,6 +28,12 @@ public class aa extends HttpServlet{
 		// TODO Auto-generated method stub
 		super.doPost(req, resp);
 	}
+
+	@Override
+	public void destroy() {
+		// TODO Auto-generated method stub
+		super.destroy();
+	}
 	
 	public static void main(String[] args) {
 		System.out.println("--------------");
