@@ -15,30 +15,27 @@ public class aa extends HttpServlet{
 		// TODO Auto-generated method stub
 		super.doGet(req, resp);
 	}
-
 	@Override
 	public void init() throws ServletException {
 		// TODO Auto-generated method stub
 		super.init();
 	}
-
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		super.doPost(req, resp);
-	}
-
+	
 	@Override
 	public void destroy() {
 		// TODO Auto-generated method stub
 		super.destroy();
 	}
-	
 	public static void main(String[] args) {
 		System.out.println("--------------");
 		System.out.println("-----ynii----");
 		System.out.println("++++ynii+++++");
+		System.out.println("++++ynii+++++9999999999999999999999999999999");
 	}
 	public void add(){
 		System.out.println("Ìí¼Ó·½·¨");
