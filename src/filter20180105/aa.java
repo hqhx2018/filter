@@ -16,5 +16,11 @@ public class aa extends HttpServlet{
 		super.doGet(req, resp);
 	}
 
+	@Override
+	public void init() throws ServletException {
+		// TODO Auto-generated method stub
+		super.init();
+	}
+	
 
 }
