@@ -17,14 +17,19 @@ public class aa extends HttpServlet{
 	}
 
 	@Override
+	public void init() throws ServletException {
+		// TODO Auto-generated method stub
+		super.init();
+	}
+
+	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		super.doPost(req, resp);
 	}
+	
+	
+	
 
-
-	
-	
-	
 }
