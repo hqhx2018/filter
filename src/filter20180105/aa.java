@@ -38,9 +38,7 @@ public class aa extends HttpServlet{
 	public static void main(String[] args) {
 		System.out.println("--------------");
 	}
-	
 	public void add(){
 		System.out.println("Ìí¼Ó·½·¨");
 	}
-
 }
